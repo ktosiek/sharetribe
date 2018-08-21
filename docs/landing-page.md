@@ -16,7 +16,7 @@ clp_static_enabled: true
 
 Run the following rake task to copy the default landing page template
 ```sh
-bundle exec rake sharetribe:landing_page:install_static
+bundle exec rake sharetribe:landing_pages:install_static
 ```
 
 The landing page template should now be available under `config/initializers/landing_page.rb`
